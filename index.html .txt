@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindBreak - Tu Pausa Inteligente</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2a2a72;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    section.hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+    }
+    section.hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    footer {
+      background: #2a2a72;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MindBreak</h1>
+    <p>Tu Pausa Inteligente</p>
+  </header>
+
+  <section class="hero">
+    <h1>Recarga tu mente, en 5 minutos</h1>
+    <p>MindBreak te ofrece micro-paquetes de contenido para relajarte, reír o aprender algo nuevo en tus pausas del trabajo o estudio.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Ríe</h3>
+      <p>Chistes, memes e historias divertidas que te sacarán una sonrisa en segundos.</p>
+    </div>
+    <div class="card">
+      <h3>Relájate</h3>
+      <p>Meditaciones guiadas, sonidos de la naturaleza y ejercicios de respiración para reducir el estrés.</p>
+    </div>
+    <div class="card">
+      <h3>Aprende</h3>
+      <p>Mini cápsulas de conocimiento sobre ciencia, historia y tecnología, en menos de 5 minutos.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MindBreak. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
